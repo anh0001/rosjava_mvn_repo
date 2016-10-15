@@ -8,12 +8,6 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>org.ros.rosjava_messages</groupId>
-      <artifactId>sensor_msgs</artifactId>
-      <version>[1.11,1.12)</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.ros.rosjava_core</groupId>
       <artifactId>rosjava</artifactId>
       <version>[0.2,0.3)</version>
@@ -22,6 +16,12 @@
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>diagnostic_msgs</artifactId>
+      <version>[1.11,1.12)</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ros.rosjava_messages</groupId>
+      <artifactId>sensor_msgs</artifactId>
       <version>[1.11,1.12)</version>
       <scope>compile</scope>
     </dependency>
